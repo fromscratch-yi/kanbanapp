@@ -29,7 +29,7 @@ const mockAuthorizeToken = store => {
 
 // Vueアプリケーションをセットアップするヘルパー関数
 const setup = state => {
-  // Vuexストアの設定
+  // Vuexの設定
   const store = new Vuex.Store({ state })
   // Vue Routerの設定
   const router = new VueRouter({

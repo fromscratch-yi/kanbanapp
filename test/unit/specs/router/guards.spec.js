@@ -31,7 +31,6 @@ const mockAuthorizeToken = store => {
 const setup = state => {
   // Vuexストアの設定
   const store = new Vuex.Store({ state })
-
   // Vue Routerの設定
   const router = new VueRouter({
     routes: [{
